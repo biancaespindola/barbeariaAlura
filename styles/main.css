@@ -6,6 +6,11 @@ cores padrão #c6c6c6 #cfd8dc #607d8b #37474f #000000
 
 */
 
+* {
+    margin:0;
+    padding:0;
+}
+
 html { 
   font-family: 'Poppins', sans-serif;
 }
