@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
 
   <link rel="apple-touch-icon" sizes="180x180" href="assets/appletouch-icon.png">
@@ -13,24 +14,36 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#e6e6e6">
 
-  <title>Barbearia Alura</title>
+  <title>Gentlemen Club</title>
 
+  <!-- <link rel="stylesheet" href="styles/reset.css"> -->
+  <link rel="stylesheet" href="styles/index.css">
   <link rel="stylesheet" href="styles/main.css">
-
+  
 </head>
 <body>
 
   <header>
-    <h1 class="title-main">Barbearia Alura</h1>
+    <div class="navbar">
+      <h1><img src="assets/barbeariaalura2.png" alt="Gentlemen Club Barbershop"></h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Serviços</a></li>
+          <li><a href="contact-us.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <img id="banner" src="assets/banner.jpg" alt="Barbearia Alura">
+  <img id="banner" src="assets/banner.jpg" alt="Gentlemen Club">
   
   <div class="principal">
-    <h2 class="title-center">Sobre a Barbearia Alura</h2>
+    <h2 class="title-center">Sobre a Gentlemen Club</h2>
     <p>
-      Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
-      Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.
+      Localizada no coração da cidade a <strong>Gentlemen Club Barber Shop</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
+      Fundada em 2019, a Gentlemen Club já é destaque na cidade e conquista novos clientes a cada dia.
     </p>
 
     <p id="missao">
@@ -49,7 +62,7 @@
   <div class="beneficios">
     <h3 class="title-center">Benefícios</h3>
 
-    <ul>
+    <ul class="itens-beneficios">
       <li class="itens">Atendimento ao clientes</li>
       <li class="itens">Espaço diferenciado</li>
       <li class="itens">Localização</li>
@@ -57,6 +70,11 @@
     </ul>
     <img src="assets/beneficios.jpg" class="imagemBeneficios" alt="beneficios">
   </div>
+
+  <footer>
+    <img src="assets/footer.png" alt="Logo Gentlemen Club">
+    <p class="copyright">&copy; Copyright Gentlemen Club - 2020</p>
+  </footer>
 
 </body>
 </html>

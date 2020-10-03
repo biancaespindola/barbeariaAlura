@@ -1,0 +1,77 @@
+main {
+  display: flex;
+}
+
+.service{
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+  /* justify-content: space-between; */
+  
+}
+
+.service li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 3px solid #37474f; 
+  border-radius: 20px; 
+}
+
+.service li:hover {
+  border-color: #607d8b;
+  background-color:  #5d7d8d;
+
+  transition: 300ms;
+}
+
+.service li:active {
+  border-color: #cfd8dc;
+}
+
+.service li:hover h2 {
+  font-size: 29px;
+  color: #cfd8dc;
+
+  transition: 300ms;
+}
+
+.service h2 {
+  color: #37474f;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.service li:hover img {
+  max-width: 135px;
+
+  transition: 300ms;
+}
+
+.service li img {
+  padding: 30px;
+  max-width: 120px;
+}
+
+.service li:hover p {
+  color: #cfd8dc;
+
+  transition: 300ms;
+}
+
+.description-service {
+  font-size: 16px;
+}
+
+.cost-service {
+  color: #37474f;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+}
