@@ -2,17 +2,15 @@
 
 cores padrão #c6c6c6 #cfd8dc #607d8b #37474f #000000
 
-
-
 */
 
 * {
-    margin:0;
-    padding:0;
+  margin: 0;
+  padding: 0;
 }
 
-html { 
-  font-family: 'Poppins', sans-serif;
+html {
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -21,15 +19,14 @@ header {
 }
 
 .navbar {
-    
   margin: 0 auto;
   position: relative;
   display: flex;
   justify-content: space-between;
-  align-items: center;  
+  align-items: center;
 }
 
-h1 img{
+h1 img {
   margin-left: 20px;
   max-width: 40%;
 }
@@ -51,6 +48,7 @@ nav a {
   font-weight: bold;
   font-size: 22px;
   text-decoration: none;
+  transition: 200ms;
 }
 
 nav a:hover {
@@ -69,7 +67,7 @@ footer {
 }
 
 footer img {
-  max-width: 60px;  
+  max-width: 60px;
 }
 
 .copyright {
