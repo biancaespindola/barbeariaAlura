@@ -59,34 +59,36 @@
 
     <main>
       <form action="">
-        <label for="user-name">Nome completo</label>
-        <input type="text" id="user-name">
-
-        <label for="user-email">Seu email</label>
-        <input type="text" id="user-email">
-
-        <label for="user-telephone">Seu telefone</label>
-        <input type="text" id="user-telephone" >
-
-        <label for="user-message">Deixe um recado</label>
-        <textarea id="user-message" cols="50" rows="10"></textarea>
-        
         <div>
-          <p>Como prefere nosso contato?</p>
-          <label for="radio-email">Por email</label>
-          <input type="radio" name="contact" value="radio-email" id="radio-email">
+          <label for="user-name">Nome completo</label>
+          <input type="text" id="user-name" class="user-input">
 
-          <label for="radio-call">Por ligação</label>
-          <input type="radio" name="contact" value="radio-call" id="radio-call">
+          <label for="user-email">Seu email</label>
+          <input type="text" id="user-email" class="user-input">
 
-          <label for="radio-whatsapp">Por whatsapp</label>
-          <input type="radio" name="contact" value="radio-whatsapp" id="radio-whatsapp">
+          <label for="user-telephone">Seu telefone</label>
+          <input type="text" id="user-telephone" class="user-input">
+
+          <label for="user-message">Deixe um recado</label>
+          <textarea id="user-message" cols="50" rows="10"></textarea>
         </div>
 
-        <label> <input type="checkbox"> Deseja assinar nossa newsletter?</label>
+        <div>
+          <p>Como prefere nosso contato?</p>
+          <label for="radio-email"><input type="radio" name="contact" value="radio-email" id="radio-email"> Por email</label>
+          
+
+          <label for="radio-call"><input type="radio" name="contact" value="radio-call" id="radio-call"> Por ligação</label>
+          
+
+          <label for="radio-whatsapp"><input type="radio" name="contact" value="radio-whatsapp" id="radio-whatsapp"> Por whatsapp</label>
+          
+        </div>
+
+        <label class="checkbox"> <input type="checkbox"> Deseja assinar nossa Newsletter?</label>
 
 
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar" class="button">
       </form>
     </main>
 

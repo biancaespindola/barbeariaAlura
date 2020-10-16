@@ -1,3 +1,9 @@
+/* 
+
+cores padrão #c6c6c6 #cfd8dc #607d8b #37474f #000000
+
+*/
+
 main {
   width: 940px;
   margin: 0 auto;
@@ -9,15 +15,34 @@ form {
   /* align-items: center; */
 }
 
-form label {
+form label, p {
   display: block;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 0 10px;
 }
 
-form input {
+.user-input {
   display: block;
   margin: 0 0 20px;
   padding: 10px 20px;
   width: 35%;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+.button {
+  padding: 10px 60px;
+  background:#607d8b;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  transition: 200ms;
+}
+
+.button:hover {
+  background:#37474f;
+  font-size: 18px;
 }
