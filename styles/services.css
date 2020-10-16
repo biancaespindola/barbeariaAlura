@@ -50,7 +50,7 @@ main {
 
 .service li:hover img {
   max-width: 135px;
-
+  transform: scale(1.0);
   transition: 300ms;
 }
 

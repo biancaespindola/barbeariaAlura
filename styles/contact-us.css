@@ -15,7 +15,7 @@ form {
   /* align-items: center; */
 }
 
-form label, p {
+form label, form legend {
   display: block;
   font-size: 18px;
   margin: 0 0 10px;
@@ -39,10 +39,12 @@ form label, p {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   border-radius: 10px;
+  border: none;
   transition: 200ms;
+  cursor: pointer;
 }
 
 .button:hover {
   background:#37474f;
-  font-size: 18px;
+  transform: scale(1.2);
 }

@@ -43,7 +43,7 @@
         <h1>
           <img
             src="assets/barbeariaalura2.png"
-            alt="Gentlemen Club Barbershop"
+            alt="Gentlemen Club Barbershop logo"
           />
         </h1>
 
@@ -61,39 +61,84 @@
       <form action="">
         <div>
           <label for="user-name">Nome completo</label>
-          <input type="text" id="user-name" class="user-input">
+          <input type="text" id="user-name" class="user-input" required />
 
           <label for="user-email">Seu email</label>
-          <input type="text" id="user-email" class="user-input">
+          <input
+            type="email"
+            id="user-email"
+            class="user-input"
+            required
+            placeholder="seumail@domínio.com"
+          />
 
           <label for="user-telephone">Seu telefone</label>
-          <input type="text" id="user-telephone" class="user-input">
+          <input
+            type="tel"
+            id="user-telephone"
+            class="user-input"
+            required
+            placeholder="(xx) xxxxx-xxxx"
+          />
 
           <label for="user-message">Deixe um recado</label>
-          <textarea id="user-message" cols="50" rows="10"></textarea>
+          <textarea id="user-message" cols="50" rows="10" required></textarea>
         </div>
 
-        <div>
-          <p>Como prefere nosso contato?</p>
-          <label for="radio-email"><input type="radio" name="contact" value="radio-email" id="radio-email"> Por email</label>
-          
+        <fieldset>
+          <legend>Como prefere nosso contato?</legend>
+          <label for="radio-email"
+            ><input
+              type="radio"
+              name="contact"
+              value="radio-email"
+              id="radio-email"
+            />
+            Por email</label
+          >
 
-          <label for="radio-call"><input type="radio" name="contact" value="radio-call" id="radio-call"> Por ligação</label>
-          
+          <label for="radio-call"
+            ><input
+              type="radio"
+              name="contact"
+              value="radio-call"
+              id="radio-call"
+            />
+            Por ligação</label
+          >
 
-          <label for="radio-whatsapp"><input type="radio" name="contact" value="radio-whatsapp" id="radio-whatsapp"> Por whatsapp</label>
-          
-        </div>
+          <label for="radio-whatsapp"
+            ><input
+              type="radio"
+              name="contact"
+              value="radio-whatsapp"
+              id="radio-whatsapp"
+              checked
+            />
+            Por whatsapp</label
+          >
+        </fieldset>
 
-        <label class="checkbox"> <input type="checkbox"> Deseja assinar nossa Newsletter?</label>
+        <fieldset>
+          <legend>Qual horário que prefere ser atendido?</legend>
+          <select name="" id="">
+            <option value="">Manhã</option>
+            <option value="">Tarde</option>
+            <option value="">Noite</option>
+          </select>
+        </fieldset>
 
+        <label class="checkbox">
+          <input type="checkbox" checked /> Deseja assinar nossa
+          Newsletter?</label
+        >
 
-        <input type="submit" value="Enviar" class="button">
+        <input type="submit" value="Enviar" class="button" />
       </form>
     </main>
 
     <footer>
-      <img src="assets/footer.png" alt="Logo Gentlemen Club" />
+      <img src="assets/footer.png" alt="Logo Gentlemen Club apenas o caelo e a barba" />
       <p class="copyright">&copy; Copyright Gentlemen Club - 2020</p>
     </footer>
   </body>
