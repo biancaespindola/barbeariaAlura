@@ -48,3 +48,19 @@ form label, form legend {
   background:#37474f;
   transform: scale(1.2);
 }
+
+table {
+  margin: 20px 0 40px;
+}
+
+thead {
+  background: #37474f;
+  color: #ffffff;
+  font-weight: bold;
+  /* padding: 10px;   */
+}
+td, th {
+  border: 1px solid #37474f;
+  padding: 8px 13px;
+  text-align: center;
+}
