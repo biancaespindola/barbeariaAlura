@@ -15,6 +15,15 @@ form {
   /* align-items: center; */
 }
 
+fieldset {
+  margin: 40px 0;
+}
+
+.title-legend {
+  font-size: 18px;
+  margin: 0 0 20px;
+}
+
 form label, form legend {
   display: block;
   font-size: 18px;
@@ -29,7 +38,7 @@ form label, form legend {
 }
 
 .checkbox {
-  margin: 20px 0;
+  margin: 20px 0 50px;
 }
 
 .button {

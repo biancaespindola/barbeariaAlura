@@ -1,85 +1,146 @@
 <!DOCTYPE html>
 <html lang="pt_br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
 
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/appletouch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon16x16.png"
+    />
+    <link rel="manifest" href="assets/barbearia.webmanifest" />
+    <link rel="mask-icon" href="assets/safaripinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#e6e6e6" />
 
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/appletouch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon16x16.png"> 
-  <link rel="manifest" href="assets/barbearia.webmanifest">
-  <link rel="mask-icon" href="assets/safaripinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#e6e6e6">
+    <title>Gentlemen Club</title>
 
-  <title>Gentlemen Club</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <h1>
+          <img
+            src="assets/barbeariaalura2.png"
+            alt="Gentlemen Club Barbershop"
+          />
+        </h1>
 
-  <link rel="stylesheet" href="styles/reset.css">
-  <link rel="stylesheet" href="styles/index.css">
-  <link rel="stylesheet" href="styles/main.css">
-  
-</head>
-<body>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Serviços</a></li>
+            <li><a href="contact-us.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  <header>
-    <div class="navbar">
-      <h1><img src="assets/barbeariaalura2.png" alt="Gentlemen Club Barbershop"></h1>
+    <img class="banner" src="assets/banner.jpg" alt="Gentlemen Club" />
 
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Serviços</a></li>
-          <li><a href="contact-us.html">Contato</a></li>
+    <main>
+      <section class="principal">
+        <h2 class="main-title">Sobre a Gentlemen Club</h2>
+
+        <img
+          src="assets/shaving-razor.jpg"
+          class="shaving"
+          alt="Instrumentros usados pelo barbeiro"
+        />
+
+        <p>
+          Localizada no coração da cidade a
+          <strong>Gentlemen Club Barber Shop</strong> traz para o mercado o que
+          há de melhor para o seu cabelo e barba. Fundada em 2019, a Gentlemen
+          Club já é destaque na cidade e conquista novos clientes a cada dia.
+        </p>
+
+        <p id="missao">
+          <em>
+            Nossa missão é:
+            <strong
+              >"Proporcionar auto-estima e qualidade de vida aos
+              clientes"</strong
+            >.
+          </em>
+        </p>
+
+        <p>
+          Oferecemos profissionais experientes e antenados às mudanças no mundo
+          da moda. O atendimento possui padrão de excelência e agilidade,
+          garantindo qualidade e satisfação dos nossos clientes.
+        </p>
+      </section>
+
+      <section class="barbershop-map">
+        <h3 class="main-title">Nossa Localização</h3>
+        <p>
+          Estamos localizados no coração na cidade, perto de todos, fácil de
+          encontrar.
+        </p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d472.09463063146603!2d-48.65440654661453!3d-27.496083959317556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95274c34705b56ad%3A0x8a72161479fe2fc6!2sDelegacia%20de%20Pol%C3%ADcia%20Da%20Comarca%20De%20Bigua%C3%A7u!5e0!3m2!1sen!2sbr!4v1602955424038!5m2!1sen!2sbr"
+          width="100%"
+          height="300"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+      </section>
+
+      <section class="beneficios">
+        <h3 class="main-title">Benefícios</h3>
+
+        <ul class="itens-beneficios">
+          <li class="itens">Atendimento ao clientes</li>
+          <li class="itens">Espaço diferenciado</li>
+          <li class="itens">Localização</li>
+          <li class="itens">Profissionais qualificados</li>
         </ul>
-      </nav>
-    </div>
-  </header>
+        <img
+          src="assets/beneficios.jpg"
+          class="imagemBeneficios"
+          alt="beneficios"
+        />
+      </section>
+      
+      <div class="video">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/lIrQGG9qEt4"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </main>
 
-  <img class="banner" src="assets/banner.jpg" alt="Gentlemen Club">
-  
-  <main>
-    <section class="principal">
-      <h2 class="main-title">Sobre a Gentlemen Club</h2>
-
-      <img src="assets/shaving-razor.jpg" class="shaving" alt="Instrumentros usados pelo barbeiro">
-
-      <p>
-        Localizada no coração da cidade a <strong>Gentlemen Club Barber Shop</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
-        Fundada em 2019, a Gentlemen Club já é destaque na cidade e conquista novos clientes a cada dia.
-      </p>
-
-      <p id="missao">
-        <em>
-          Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.
-        </em>
-      </p>
-
-      <p>
-        Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão
-        de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.
-      </p>
-    </section>
-
-
-    <section class="beneficios">
-      <h3 class="main-title">Benefícios</h3>
-
-      <ul class="itens-beneficios">
-        <li class="itens">Atendimento ao clientes</li>
-        <li class="itens">Espaço diferenciado</li>
-        <li class="itens">Localização</li>
-        <li class="itens">Profissionais qualificados</li>
-      </ul>
-      <img src="assets/beneficios.jpg" class="imagemBeneficios" alt="beneficios">
-    </section>
-  </main>
-
-  <footer>
-    <img src="assets/footer.png" alt="Logo Gentlemen Club">
-    <p class="copyright">&copy; Copyright Gentlemen Club - 2020</p>
-  </footer>
-
-</body>
+    <footer>
+      <img src="assets/footer.png" alt="Logo Gentlemen Club" />
+      <p class="copyright">&copy; Copyright Gentlemen Club - 2020</p>
+    </footer>
+  </body>
 </html>
