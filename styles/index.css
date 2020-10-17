@@ -91,11 +91,17 @@ main {
 
 .itens {
   /* font-style: italic; */
-  line-height: 1.5em;
+  line-height: 2em;
+  color: #cfd8dc;
 }
 
 .itens:first-child {
   font-weight: bold;
+}
+
+.itens:before {
+  content: "\1FA92";
+  margin-right: 0.5em;
 }
 
 .imagem-beneficios {
