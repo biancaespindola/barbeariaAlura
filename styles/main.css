@@ -1,6 +1,6 @@
 /* 
 
-cores padrão #c6c6c6 #cfd8dc #607d8b #37474f #000000
+cores padrão #c6c6c6 #cfd8dc #607d8b #1e2b31 #000000
 
 */
 
@@ -68,6 +68,7 @@ footer {
   align-items: center;
   display: flex;
   margin: auto;
+  vertical-align: bottom;
 }
 
 footer img {

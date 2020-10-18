@@ -30,6 +30,7 @@ main {
   color: #607d8b;
   font-weight: bold;
   clear: left;
+  /* text-shadow: 2px 2px 20px #1e2b31; */
 }
 
 .principal p {
@@ -106,6 +107,13 @@ main {
 
 .imagem-beneficios {
   width: 55%;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 15px #1e2b31;
+}
+
+.imagem-beneficios:hover {
+  opacity: 0.5;
 }
 
 .video {
